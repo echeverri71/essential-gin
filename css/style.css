@@ -1,0 +1,1400 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+
+/*--------HEADER BOOSTRAP------*/
+
+header nav {
+    background-color: #2F3925;
+    color: #BBD1B4;
+}
+
+.logoGN {
+    width: 150px;
+    height: auto;
+    margin: 5px 0px 0px 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #BBD1B4;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #BBD1B4
+}
+
+
+/*--------HEADER------*/
+
+
+header {
+    background-color: #2F3925;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
+.header-flex {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 20px 0px 10px 0px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #BBD1B4;
+    padding-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.ginlogo {
+    width: 150px;
+    height: auto;
+    margin: 20px 0px 0px 100px;
+}
+
+/*--------MAIN------*/
+main {
+    grid-area: main;
+}
+
+.hero {
+    background-image: url(../img/HeroBG.png);
+    width: 100%;
+    height: calc(100vh - 92.69px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tituloEssential {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.parrafo1 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.parrafo2 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.parrafo3 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.buyNow {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    box-shadow: none;
+    transition: 1s;
+}
+
+.buyNow:hover {
+    transform: scale(1.1);
+}
+
+.botellaGin {
+    width: 300px;
+    height: auto;
+    transition: 2s;
+}
+
+.botellaGin:hover {
+    transform: scale(1.1);
+
+}
+
+main section span {
+    color: #BBD1B4;
+}
+
+.sectionHistoria {
+    background-color: #161C0C;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.tituloHistoria {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.h1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+.h2 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+.h3 {
+    color: #bbd1b4b2;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.h4 {
+    color: #bbd1b4b2;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px
+}
+
+.video-gin {
+    background-color: #161C0C;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premios {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.premios-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.tituloPremios {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.boton2 {
+    padding-bottom: 40px;
+}
+
+.buyNow2 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    box-shadow: none;
+    transition: 1s;
+}
+
+.buyNow2:hover {
+    transform: scale(1.1);
+}
+
+.elaborado {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.galeria {
+    background-color: #161C0C;
+    width: 100%;
+    height: 70vh;
+}
+
+.img-galeria {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.galeria1 {
+    width: 350px;
+    height: auto;
+}
+
+.galeria2 {
+    width: 397px;
+    height: auto;
+}
+
+.galeria3 {
+    width: 396px;
+    height: auto;
+}
+
+.pgaleria {
+    color: #bbd1b4b2;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px
+}
+
+
+/*--------FOOTER------*/
+
+footer {
+    background-color: #2F3925;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: footer;
+
+}
+
+.txt-footer {
+    color: #bbd1b4b2;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.logoig {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.logofb {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.logowa {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.ginlogofooter {
+    width: 120px;
+    height: auto;
+}
+
+
+/**HISTORIA*/
+
+.paginaHistoria {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: calc(100vh - 92.69px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tituloHistoria {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.parrafo1 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.parrafo2 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.parrafo3 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.botellaGinHistoria {
+    width: 200px;
+    height: auto;
+    margin: 50px;
+    transition: 1s;
+}
+.botellaGinHistoria:hover {
+    transform: scale(1.1);
+
+}
+
+.videoHistoria {
+    background-color: #161C0C;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.videoH {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fraseVideoH {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.historia-img-p {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.historia-elementos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.foto-historia {
+    width: 400px;
+    height: auto;
+}
+
+.p1-historia {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.p2-historia {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.boton-historia {
+    display: flex;
+    justify-content: center;
+}
+
+.buyNow3 {
+    text-decoration: none;
+    margin-top: -20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 15%;
+    height: 40px;
+    box-shadow: none;
+}
+
+.buyNow3:hover {
+    transform: scale(1.1);
+}
+
+/**LA DESTILERIA*/
+
+.destileria-section1 {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tt-destileria {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+.p1-destileria {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.p2-destileria {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.p3-destileria {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-left: 25px;
+}
+
+.p4-destileria {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.destilaria-galeria {
+    background-color: #161C0C;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.destileria-derecha {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+
+}
+
+.destileria-tt2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.destileria-elementos {
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 250px;
+}
+
+.destileria-p3 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+.destileria-parrafos {
+    padding-top: 30px;
+    text-align: right;
+    padding-right: 250px;
+    flex-direction: column;
+}
+
+.boton4 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 250px;
+}
+
+.buyNow4 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    box-shadow: none;
+    transition: 1s;
+}
+
+.buyNow4:hover {
+    transform: scale(1.1);
+}
+
+
+/**COMPRAR AHORA*/
+
+.comprar-ahora {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/BgPremios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.donde-comprar {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.tiendas-compra1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.tiendas-compra2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.tiendas-compra3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.titulo-tienda1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda3 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda4 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda5 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda6 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda7 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda8 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.titulo-tienda9 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.txt-tienda {
+    color: #BBD1B4;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.boton-contactar1 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar1:hover {
+    transform: scale(1.1);
+}
+
+
+.boton-contactar2 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar2:hover {
+    transform: scale(1.1);
+}
+.boton-contactar3 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar3:hover {
+    transform: scale(1.1);
+}
+.boton-contactar4 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar4:hover {
+    transform: scale(1.1);
+}
+.boton-contactar5 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar5:hover {
+    transform: scale(1.1);
+}
+.boton-contactar6 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+.boton-contactar6:hover {
+    transform: scale(1.1);
+}
+.boton-contactar7 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+    margin-bottom: 40px;
+}
+.boton-contactar7:hover {
+    transform: scale(1.1);
+}
+.boton-contactar8 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+    margin-bottom: 40px;
+}
+.boton-contactar8:hover {
+    transform: scale(1.1);
+}
+.boton-contactar9 {
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+    margin-bottom: 40px;
+}
+.boton-contactar9:hover {
+    transform: scale(1.1);
+}
+
+
+/**CONTACTO*/
+
+.contacto-ppal {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/BgPremios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+.contacto-parrafo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+
+}
+
+.contacto-botella {
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    transition: 2s;
+
+}
+.contacto-botella:hover {
+    transform: scale(1.1);
+
+}
+
+.contacto-tt {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+.contacto-parrafo-elementos {
+    padding-left: 100px;
+}
+
+.contacto-p {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.contacto-p1 {
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.form {
+    padding-right: 40px;
+}
+
+.form-contenedor {
+    width: 450px;
+    height: auto;
+    background-color: #161C0C;
+    border-radius: 15px;
+    box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    padding: 20px 20px 20px 20px;
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.label {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold 300;
+    padding-top: 20px;
+}
+
+.input {
+    background-color: #BBD1B4;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+}
+
+.boton-enviar {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    box-shadow: none;
+}
+
+.boton-borrar {
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    box-shadow: none;
+}
+
+
+@media screen and (max-width:1148px) {
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-galeria {
+        flex-direction: column;
+    }
+
+    .galeria1 {
+        width: 400px;
+        height: auto;
+    }
+
+    .galeria2 {
+        width: 400px;
+        height: auto;
+    }
+
+    .galeria3 {
+        width: 400px;
+        height: auto;
+    }
+
+    .pgaleria {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:1015px) {
+    .botellaGin {
+        width: 250px;
+        height: auto;
+    }
+
+    .sectionHistoria {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .p2historia {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    .h3 {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .h4 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .premios-contenedor {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .elaborado {
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .hero {
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .buyNow2 {
+        width: auto;
+        height: 40px;
+    }
+
+    .botellaGin {
+        width: 200px;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .contenedorh1 {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .ginlogofooter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .premios-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt-footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .buyNow2 {
+        width: auto;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tiendas-compra1 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tiendas-compra2 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tiendas-compra3 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .titulo-tienda2 {
+        padding-top: 40px;
+    }
+    .titulo-tienda3 {
+        padding-top: 40px;
+    }
+    .titulo-tienda5 {
+        padding-top: 40px;
+    }
+    .titulo-tienda6 {
+        padding-top: 40px;
+    }
+    .titulo-tienda8 {
+        padding-top: 40px;
+    }
+    .titulo-tienda9 {
+        padding-top: 40px;
+    }
+    .boton-contactar9 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .historia-elementos{
+        flex-direction: column;
+    }
+    .p1-historia{
+        margin-top: 40px;
+    }
+    .boton-historia{
+        margin-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .paginaHistoria{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .elementosH{
+        padding-left: 20px;
+    }
+    .buyNow3{
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .elementosH{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Hvideo{
+        width: 500px;
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Hvideo{
+        width: 450px;
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hvideo{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:1148px) {
+    .destilaria-galeria{
+        width: 100%;
+        height: auto;
+    }
+    .img-galeria {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .galeria1 {
+        width: 400px;
+        height: auto;
+        transition: 2s;
+    }
+
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+
+    .galeria2 {
+        width: 400px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+
+    .galeria3 {
+        width: 400px;
+        height: auto;
+        padding-bottom: 40px;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .destileria-section1{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .destileria-elementos{
+        padding-right: 150px;
+    }
+    .destileria-parrafos{
+        padding-right: 150px;
+    }
+    .boton4{
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .destileria-elementos{
+        padding-right: 70px;
+    }
+    .destileria-parrafos{
+        padding-right: 70px;
+    }
+    .boton4{
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .destileria-elementos{
+        padding-right: 20px;
+    }
+    .destileria-parrafos{
+        padding-right: 20px;
+    }
+    .boton4{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .contacto-parrafo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contacto-botella{
+        display: none;
+    }
+    .form{
+        padding-right: 0;
+    }
+    .contacto-parrafo-elementos {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .form-contenedor{
+        width: 350px;
+        height: auto;
+    }
+    
+}
+
+
+
