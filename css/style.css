@@ -145,7 +145,7 @@ main {
     transition: all 0.9s;
     text-align: center;
     width: 35%;
-    height: 40px;
+    height: auto;
     box-shadow: none;
     transition: 1s;
 }
