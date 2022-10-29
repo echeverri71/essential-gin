@@ -1,0 +1,26 @@
+/*--------HEADER BOOSTRAP------*/
+
+header {
+    background-color: #2F3925;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+    nav {
+        background-color: #2F3925;
+        color: #BBD1B4;
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin: 20px 0px 10px 0px;
+                a {
+                    text-decoration: none;
+                    color: #BBD1B4;
+                    padding-left: 30px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

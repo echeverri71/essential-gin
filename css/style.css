@@ -21,9 +21,33 @@
 
 /*--------HEADER BOOSTRAP------*/
 
+header {
+    background-color: #2F3925;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
 header nav {
     background-color: #2F3925;
     color: #BBD1B4;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 20px 0px 10px 0px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #BBD1B4;
+    padding-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .logoGN {
@@ -41,49 +65,12 @@ header nav {
     color: #BBD1B4
 }
 
-
-/*--------HEADER------*/
-
-
-header {
-    background-color: #2F3925;
-    position: sticky;
-    top: 0;
-    grid-area: header;
-}
-
 .header-flex {
     width: 92%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-header nav ul {
-    display: flex;
-
-}
-
-header nav ul li {
-    list-style: none;
-    margin: 20px 0px 10px 0px;
-
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #BBD1B4;
-    padding-left: 30px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-}
-
-.ginlogo {
-    width: 150px;
-    height: auto;
-    margin: 20px 0px 0px 100px;
-}
-
 /*--------MAIN------*/
 main {
     grid-area: main;
@@ -261,24 +248,21 @@ main section span {
     padding-top: 100px;
 }
 
-.boton2 {
-    padding-bottom: 40px;
-}
 
 .buyNow2 {
     text-decoration: none;
     margin-top: 15px;
     padding: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     background: #5E9E46;
     border-radius: 50px;
     border: none;
     transition: all 0.9s;
     text-align: center;
-    width: 35%;
-    height: 40px;
+    width: 30%;
+    height: 50px;
     box-shadow: none;
     transition: 1s;
 }
@@ -299,12 +283,13 @@ main section span {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .galeria {
     background-color: #161C0C;
     width: 100%;
-    height: 70vh;
+    height: auto;
 }
 
 .img-galeria {
@@ -315,17 +300,22 @@ main section span {
 }
 
 .galeria1 {
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
 .galeria2 {
-    width: 397px;
+    width: 338px;
     height: auto;
 }
 
 .galeria3 {
-    width: 396px;
+    width: 337px;
+    height: auto;
+}
+
+.galeria4 {
+    width: 337px;
     height: auto;
 }
 
@@ -503,6 +493,7 @@ footer {
 .boton-historia {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .buyNow3 {
@@ -539,6 +530,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .tt-destileria {
@@ -642,7 +635,7 @@ footer {
     margin-top: 15px;
     padding: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     background: #5E9E46;
     border-radius: 50px;
@@ -650,7 +643,7 @@ footer {
     transition: all 0.9s;
     text-align: center;
     width: 35%;
-    height: 40px;
+    height: 50px;
     box-shadow: none;
     transition: 1s;
 }
@@ -1065,7 +1058,12 @@ footer {
 }
 
 
-@media screen and (max-width:1148px) {
+@media screen and (max-width:1340px) {
+    .destilaria-galeria{
+        width: 100%;
+        height: auto;
+    }
+    
     .galeria {
         width: 100%;
         height: auto;
@@ -1073,28 +1071,52 @@ footer {
 
     .img-galeria {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 
     .galeria1 {
         width: 400px;
         height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
     }
 
     .galeria2 {
         width: 400px;
         height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
     }
 
     .galeria3 {
         width: 400px;
         height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
     }
 
+    .galeria4 {
+        width: 400px;
+        height: auto;
+        padding-bottom: 40px;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
     .pgaleria {
         text-align: center;
         padding-bottom: 40px;
     }
 }
+
 
 @media screen and (max-width:1015px) {
     .botellaGin {
@@ -1284,47 +1306,6 @@ footer {
 @media screen and (max-width: 480px) {
     .Hvideo{
         padding: 30px;
-    }
-}
-
-@media screen and (max-width:1148px) {
-    .destilaria-galeria{
-        width: 100%;
-        height: auto;
-    }
-    .img-galeria {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-    }
-
-    .galeria1 {
-        width: 400px;
-        height: auto;
-        transition: 2s;
-    }
-
-    .galeria1:hover {
-        transform: scale(1.1);
-    }
-
-    .galeria2 {
-        width: 400px;
-        height: auto;
-        transition: 2s;
-    }
-    .galeria2:hover {
-        transform: scale(1.1);
-    }
-
-    .galeria3 {
-        width: 400px;
-        height: auto;
-        padding-bottom: 40px;
-        transition: 2s;
-    }
-    .galeria3:hover {
-        transform: scale(1.1);
     }
 }
 
