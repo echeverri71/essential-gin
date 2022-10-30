@@ -1,0 +1,29 @@
+
+footer {
+    background-color: #2F3925;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: footer;
+    .logoig{
+        @extend %logosfooter;
+    }
+    .logofb{
+        @extend %logosfooter;
+    }
+    .logowa{
+        @extend %logosfooter;
+    }
+    .txt-footer {
+        color: #bbd1b4b2;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        text-align: center;
+    }
+    .ginlogofooter {
+        width: 120px;
+        height: auto;
+    }
+}

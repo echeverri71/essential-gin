@@ -12,6 +12,106 @@
   grid-auto-flow: row;
   grid-template-areas: "header header" "main main" "footer footer"; }
 
+main .hero .buyNow, main .premios .boton2 .buyNow2 {
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: #5E9E46;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.9s;
+  text-align: center;
+  width: 35%;
+  height: auto;
+  box-shadow: none;
+  transition: 1s; }
+
+.comprar-ahora .tiendas-compra1 .boton-contactar1, .comprar-ahora .tiendas-compra1 .boton-contactar2, .comprar-ahora .tiendas-compra1 .boton-contactar3, .comprar-ahora .tiendas-compra2 .boton-contactar4, .comprar-ahora .tiendas-compra2 .boton-contactar5, .comprar-ahora .tiendas-compra2 .boton-contactar6, .comprar-ahora .tiendas-compra3 .boton-contactar7, .comprar-ahora .tiendas-compra3 .boton-contactar8, .comprar-ahora .tiendas-compra3 .boton-contactar9, .destileria-derecha .boton4 .buyNow4 {
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background: #5E9E46;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.9s;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  box-shadow: none;
+  transition: 1s; }
+
+.historia-img-p .boton-historia .buyNow3 {
+  text-decoration: none;
+  margin-top: -20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: #5E9E46;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.9s;
+  text-align: center;
+  width: 15%;
+  height: 40px;
+  box-shadow: none; }
+
+main .hero .parrafo1, main .hero .parrafo2, main .hero .parrafo3, .paginaHistoria .parrafo1, .paginaHistoria .parrafo2, .paginaHistoria .parrafo3, .destileria-section1 .p1-destileria, .destileria-section1 .p2-destileria, .destileria-section1 .p3-destileria, .destileria-section1 .p4-destileria {
+  color: #BBD1B4;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+main .sectionHistoria .h1, main .sectionHistoria .h2, main .premios .premios-contenedor, .historia-img-p .p1-historia {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+main .sectionHistoria .h3, main .sectionHistoria .h4, .historia-img-p .p2-historia {
+  color: #bbd1b4b2;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+main .galeria .pgaleria {
+  color: #bbd1b4b2;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+main .tituloPremios, main .premios .elaborado, .comprar-ahora .donde-comprar, .paginaHistoria .tituloHistoria, .destileria-section1 .tt-destileria, .destileria-derecha .destileria-tt2, .contacto-ppal .contacto-tt {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Bebas Neue', cursive; }
+
+footer .logoig, footer .logofb, footer .logowa {
+  width: 40px;
+  height: 40px;
+  padding: 5px; }
+
+.comprar-ahora .tiendas-compra1, .comprar-ahora .tiendas-compra2, .comprar-ahora .tiendas-compra3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px; }
+
+.comprar-ahora .tiendas-compra1 .titulo-tienda1, .comprar-ahora .tiendas-compra1 .titulo-tienda2, .comprar-ahora .tiendas-compra1 .titulo-tienda3, .comprar-ahora .tiendas-compra2 .titulo-tienda4, .comprar-ahora .tiendas-compra2 .titulo-tienda5, .comprar-ahora .tiendas-compra2 .titulo-tienda6, .comprar-ahora .tiendas-compra3 .titulo-tienda7, .comprar-ahora .tiendas-compra3 .titulo-tienda8, .comprar-ahora .tiendas-compra3 .titulo-tienda9 {
+  color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px; }
+
+.comprar-ahora .tiendas-compra1 .txt-tienda, .comprar-ahora .tiendas-compra2 .txt-tienda, .comprar-ahora .tiendas-compra3 .txt-tienda, .destileria-derecha .destileria-p3, .contacto-ppal .contacto-p, .contacto-ppal .contacto-p1 {
+  color: #BBD1B4;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
 /*--------HEADER BOOSTRAP------*/
 header {
   background-color: #2F3925;
@@ -21,6 +121,10 @@ header {
   header nav {
     background-color: #2F3925;
     color: #BBD1B4; }
+    header nav .logoGN {
+      width: 150px;
+      height: auto;
+      margin: 5px 0px 0px 100px; }
     header nav ul {
       display: flex; }
       header nav ul li {
@@ -32,3 +136,588 @@ header {
           padding-left: 30px;
           font-family: 'Lato', sans-serif;
           font-weight: 400; }
+
+/* No entiendo como aplicar las clases de este header de boostrap para que bien aplicado */
+main {
+  grid-area: main; }
+  main .hero {
+    background-image: url(../img/HeroBG.png);
+    width: 100%;
+    height: calc(100vh - 92.69px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    main .hero .tituloEssential {
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 70px; }
+    main .hero .parrafo2 {
+      margin-top: 15px; }
+    main .hero .parrafo3 {
+      margin-top: 15px; }
+    main .hero .buyNow:hover {
+      transform: scale(1.1); }
+    main .hero .botellaGin {
+      width: 300px;
+      height: auto;
+      transition: 2s; }
+    main .hero .botellaGin:hover {
+      transform: scale(1.1); }
+  main .sectionHistoria {
+    background-color: #161C0C;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline; }
+    main .sectionHistoria .tituloHistoria {
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 70px; }
+    main .sectionHistoria .h2 {
+      margin-top: 20px; }
+    main .sectionHistoria .h3 {
+      padding: 10px;
+      margin-top: 110px;
+      margin-left: 40px; }
+    main .sectionHistoria .h4 {
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 40px; }
+  main .video-gin {
+    background-color: #161C0C;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main .tituloPremios {
+    text-align: center;
+    padding-top: 100px; }
+  main .premios {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+    main .premios .premios-contenedor {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 50px;
+      margin-top: 20px;
+      text-align: center; }
+    main .premios .elaborado {
+      text-align: center;
+      padding-top: 50px; }
+    main .premios .boton2 {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      padding-bottom: 50px; }
+      main .premios .boton2 .buyNow2:hover {
+        transform: scale(1.1); }
+  main .galeria {
+    background-color: #161C0C;
+    width: 100%;
+    height: 60vh; }
+    main .galeria .img-galeria {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-top: 80px; }
+      main .galeria .img-galeria .galeria1 {
+        width: 300px;
+        height: auto; }
+      main .galeria .img-galeria .galeria2 {
+        width: 338px;
+        height: auto; }
+      main .galeria .img-galeria .galeria3 {
+        width: 337px;
+        height: auto; }
+      main .galeria .img-galeria .galeria4 {
+        width: 337px;
+        height: auto; }
+    main .galeria .pgaleria {
+      margin-top: 10px;
+      margin-left: 40px; }
+
+.comprar-ahora {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/BgPremios.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .comprar-ahora .donde-comprar {
+    padding-top: 40px;
+    text-align: center; }
+  .comprar-ahora .tiendas-compra1 .boton-contactar1:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra1 .boton-contactar2:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra1 .boton-contactar3:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .boton-contactar4:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .boton-contactar5:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .boton-contactar6:hover {
+    transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra3 {
+    padding-bottom: 40px; }
+    .comprar-ahora .tiendas-compra3 .boton-contactar7:hover {
+      transform: scale(1.1); }
+    .comprar-ahora .tiendas-compra3 .boton-contactar8:hover {
+      transform: scale(1.1); }
+    .comprar-ahora .tiendas-compra3 .boton-contactar9:hover {
+      transform: scale(1.1); }
+
+.paginaHistoria {
+  background-image: url(../img/BgPremios.png);
+  width: 100%;
+  height: calc(100vh - 92.69px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .paginaHistoria .botellaGinHistoria {
+    width: 200px;
+    height: auto;
+    margin: 50px;
+    transition: 1s; }
+  .paginaHistoria .botellaGinHistoria:hover {
+    transform: scale(1.1); }
+
+.videoHistoria {
+  background-color: #161C0C;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px; }
+  .videoHistoria .videoH {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; }
+  .videoHistoria .fraseVideoH {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px; }
+
+.historia-img-p {
+  background-image: url(../img/BgPremios.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .historia-img-p .historia-elementos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px; }
+  .historia-img-p .foto-historia {
+    width: 400px;
+    height: auto; }
+  .historia-img-p .p2-historia {
+    padding-right: 15px; }
+  .historia-img-p .boton-historia {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px; }
+    .historia-img-p .boton-historia .buyNow3:hover {
+      transform: scale(1.1); }
+
+.destileria-section1 {
+  background-image: url(../img/BgPremios.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .destileria-section1 .p3-destileria {
+    padding-left: 25px; }
+  .destileria-section1 .p4-destileria {
+    padding-left: 25px;
+    padding-top: 10px; }
+
+.destileria-galeria {
+  width: 100%;
+  height: 50vh;
+  background-color: #161C0C; }
+  .destileria-galeria .img-galeria {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 80px; }
+    .destileria-galeria .img-galeria .galeria1 {
+      width: 300px;
+      height: auto; }
+    .destileria-galeria .img-galeria .galeria2 {
+      width: 338px;
+      height: auto; }
+    .destileria-galeria .img-galeria .galeria3 {
+      width: 337px;
+      height: auto; }
+    .destileria-galeria .img-galeria .galeria4 {
+      width: 337px;
+      height: auto; }
+
+.destileria-derecha {
+  background-image: url(../img/BgPremios.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 40px; }
+  .destileria-derecha .destileria-elementos {
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 250px; }
+  .destileria-derecha .destileria-tt2 {
+    padding-top: 50px; }
+  .destileria-derecha .destileria-parrafos {
+    padding-top: 30px;
+    text-align: right;
+    padding-right: 250px;
+    flex-direction: column; }
+  .destileria-derecha .boton4 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 250px; }
+    .destileria-derecha .boton4 .buyNow4:hover {
+      transform: scale(1.1); }
+
+.contacto-ppal {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/BgPremios.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 40px; }
+  .contacto-ppal .contacto-parrafo-elementos {
+    padding-left: 100px; }
+  .contacto-ppal .contacto-parrafo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px; }
+  .contacto-ppal .contacto-botella {
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    transition: 2s; }
+  .contacto-ppal .contacto-botella:hover {
+    transform: scale(1.1); }
+  .contacto-ppal .contacto-p1 {
+    padding-top: 20px; }
+  .contacto-ppal .form {
+    padding-right: 40px; }
+    .contacto-ppal .form .form-contenedor {
+      width: 380px;
+      height: auto;
+      background-color: #161C0C;
+      border-radius: 15px;
+      box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+      -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+      -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+      padding: 20px 20px 20px 20px;
+      color: #BBD1B4;
+      font-size: 18px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300; }
+      .contacto-ppal .form .form-contenedor .label {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold 300;
+        padding-top: 20px; }
+      .contacto-ppal .form .form-contenedor .boton-enviar {
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        background: #5E9E46;
+        border-radius: 50px;
+        border: none;
+        transition: all 0.9s;
+        text-align: center;
+        width: 50%;
+        height: 40px;
+        box-shadow: none; }
+      .contacto-ppal .form .form-contenedor .boton-borrar {
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        background: white;
+        border-radius: 50px;
+        border: none;
+        transition: all 0.9s;
+        text-align: center;
+        width: 30%;
+        height: 40px;
+        box-shadow: none; }
+
+footer {
+  background-color: #2F3925;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: footer; }
+  footer .txt-footer {
+    color: #bbd1b4b2;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align: center; }
+  footer .ginlogofooter {
+    width: 120px;
+    height: auto; }
+
+@media screen and (max-width: 1340px) {
+  .destilaria-galeria {
+    width: 100%;
+    height: auto; }
+  .galeria {
+    width: 100%;
+    height: auto; }
+  .img-galeria {
+    flex-direction: column;
+    width: 100%;
+    height: auto; }
+  .galeria1 {
+    width: 400px;
+    height: auto;
+    transition: 2s; }
+  .galeria1:hover {
+    transform: scale(1.1); }
+  .galeria2 {
+    width: 400px;
+    height: auto;
+    transition: 2s; }
+  .galeria2:hover {
+    transform: scale(1.1); }
+  .galeria3 {
+    width: 400px;
+    height: auto;
+    transition: 2s; }
+  .galeria3:hover {
+    transform: scale(1.1); }
+  .galeria4 {
+    width: 400px;
+    height: auto;
+    padding-bottom: 40px;
+    transition: 2s; }
+  .galeria4:hover {
+    transform: scale(1.1); }
+  .pgaleria {
+    text-align: center;
+    padding-bottom: 40px; } }
+
+@media screen and (max-width: 1015px) {
+  .botellaGin {
+    width: 250px;
+    height: auto; }
+  .sectionHistoria {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px; }
+  .p2historia {
+    margin-top: 0px;
+    padding: 0; }
+  .h3 {
+    padding: 15px;
+    margin: 0; }
+  .h4 {
+    padding: 10px;
+    margin: 0; }
+  .premios-contenedor {
+    width: 100%;
+    height: auto; } }
+
+@media screen and (max-width: 925px) {
+  .elaborado {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (max-width: 830px) {
+  .hero {
+    width: 100%;
+    height: auto;
+    padding-top: 40px; }
+  .buyNow2 {
+    width: auto;
+    height: 40px; }
+  .botellaGin {
+    width: 200px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px; }
+  .contenedorh1 {
+    padding-left: 40px; } }
+
+@media screen and (max-width: 725px) {
+  .ginlogofooter {
+    display: none; } }
+
+@media screen and (max-width: 630px) {
+  .premios-contenedor {
+    display: flex;
+    flex-direction: column; }
+  .txt-footer {
+    font-size: 14px; } }
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column; }
+  .buyNow2 {
+    width: auto;
+    height: 40px; } }
+
+@media screen and (max-width: 1100px) {
+  .tiendas-compra1 {
+    text-align: center;
+    align-items: center;
+    flex-direction: column; }
+  .tiendas-compra2 {
+    text-align: center;
+    align-items: center;
+    flex-direction: column; }
+  .tiendas-compra3 {
+    text-align: center;
+    align-items: center;
+    flex-direction: column; }
+  .titulo-tienda2 {
+    padding-top: 40px; }
+  .titulo-tienda3 {
+    padding-top: 40px; }
+  .titulo-tienda5 {
+    padding-top: 40px; }
+  .titulo-tienda6 {
+    padding-top: 40px; }
+  .titulo-tienda8 {
+    padding-top: 40px; }
+  .titulo-tienda9 {
+    padding-top: 40px; }
+  .boton-contactar9 {
+    margin-bottom: 40px; } }
+
+@media screen and (max-width: 1220px) {
+  .historia-elementos {
+    flex-direction: column; }
+  .p1-historia {
+    margin-top: 40px; }
+  .boton-historia {
+    margin-top: 30px;
+    padding-bottom: 40px; } }
+
+@media screen and (max-width: 920px) {
+  .paginaHistoria {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px; }
+  .elementosH {
+    padding-left: 20px; }
+  .buyNow3 {
+    width: 30%;
+    height: auto; } }
+
+@media screen and (max-width: 630px) {
+  .elementosH {
+    padding-left: 30px; } }
+
+@media screen and (max-width: 600px) {
+  .Hvideo {
+    width: 500px;
+    height: 315px; } }
+
+@media screen and (max-width: 540px) {
+  .Hvideo {
+    width: 450px;
+    height: 315px; } }
+
+@media screen and (max-width: 480px) {
+  .Hvideo {
+    padding: 30px; } }
+
+@media screen and (max-width: 1000px) {
+  .destileria-section1 {
+    flex-direction: column; } }
+
+@media screen and (max-width: 800px) {
+  .destileria-elementos {
+    padding-right: 150px; }
+  .destileria-parrafos {
+    padding-right: 150px; }
+  .boton4 {
+    padding-right: 150px; } }
+
+@media screen and (max-width: 600px) {
+  .destileria-elementos {
+    padding-right: 70px; }
+  .destileria-parrafos {
+    padding-right: 70px; }
+  .boton4 {
+    padding-right: 70px; } }
+
+@media screen and (max-width: 530px) {
+  .destileria-elementos {
+    padding-right: 20px; }
+  .destileria-parrafos {
+    padding-right: 20px; }
+  .boton4 {
+    padding-right: 20px; } }
+
+@media screen and (max-width: 1050px) {
+  .contacto-parrafo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .contacto-botella {
+    display: none; }
+  .form {
+    padding-right: 0; }
+  .contacto-parrafo-elementos {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 480px) {
+  .form-contenedor {
+    width: 350px;
+    height: auto; } }

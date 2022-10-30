@@ -1,0 +1,115 @@
+
+.comprar-ahora {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/BgPremios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .donde-comprar {
+        @extend %titulogrande;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .tiendas-compra1{
+        @extend %tiendascompra;
+        .titulo-tienda1{
+            @extend %titulotienda;
+        }
+        .txt-tienda{
+            @extend %txt-tienda;
+        }
+        .boton-contactar1{
+            @extend %BotonComprar;
+        }
+        .boton-contactar1:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda2{
+            @extend %titulotienda;
+        }
+        .boton-contactar2{
+            @extend %BotonComprar;
+        }
+        .boton-contactar2:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda3{
+            @extend %titulotienda;
+        }
+        .boton-contactar3{
+            @extend %BotonComprar;
+        }
+        .boton-contactar3:hover {
+            transform: scale(1.1);
+        }
+    }
+    .tiendas-compra2{
+        @extend %tiendascompra;
+        .titulo-tienda4{
+            @extend %titulotienda;
+        }
+        .txt-tienda{
+            @extend %txt-tienda;
+        }
+        .boton-contactar4{
+            @extend %BotonComprar;
+        }
+        .boton-contactar4:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda5{
+            @extend %titulotienda;
+        }
+        .boton-contactar5{
+            @extend %BotonComprar;
+        }
+        .boton-contactar5:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda6{
+            @extend %titulotienda;
+        }
+        .boton-contactar6{
+            @extend %BotonComprar;
+        }
+        .boton-contactar6:hover {
+            transform: scale(1.1);
+        }
+    }
+    .tiendas-compra3{
+        @extend %tiendascompra;
+        padding-bottom: 40px;
+        .titulo-tienda7{
+            @extend %titulotienda;
+        }
+        .txt-tienda{
+            @extend %txt-tienda;
+        }
+        .boton-contactar7{
+            @extend %BotonComprar;
+        }
+        .boton-contactar7:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda8{
+            @extend %titulotienda;
+        }
+        .boton-contactar8{
+            @extend %BotonComprar;
+        }
+        .boton-contactar8:hover {
+            transform: scale(1.1);
+        }
+        .titulo-tienda9{
+            @extend %titulotienda;
+        }
+        .boton-contactar9{
+            @extend %BotonComprar;
+        }
+        .boton-contactar9:hover {
+            transform: scale(1.1);
+        }
+    }        
+}

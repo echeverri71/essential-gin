@@ -1,0 +1,90 @@
+
+.paginaHistoria {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: calc(100vh - 92.69px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .tituloHistoria {
+        @extend %titulogrande;
+    }
+    .parrafo1{
+        @extend %ParrafosGenerales;
+    }
+    .parrafo2{
+        @extend %ParrafosGenerales;
+    }
+    .parrafo3{
+        @extend %ParrafosGenerales;
+    }
+    .botellaGinHistoria {
+        width: 200px;
+        height: auto;
+        margin: 50px;
+        transition: 1s;
+    }
+    .botellaGinHistoria:hover {
+        transform: scale(1.1);
+    }
+}
+.videoHistoria {
+    background-color: #161C0C;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    .videoH {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .fraseVideoH {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+.historia-img-p {
+    background-image: url(../img/BgPremios.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .historia-elementos {
+        @include flex (flex, space-evenly, center);
+        padding-top: 50px
+    }
+    .foto-historia {
+        width: 400px;
+        height: auto;
+    }
+    .p1-historia {
+        @extend %ParrafosGenerales2;
+    }
+    .p2-historia {
+        @extend %ParrafosGenerales3;
+        padding-right: 15px;
+    }
+    .boton-historia{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+        .buyNow3 {
+            @extend %BotonComprar2;
+        }
+        .buyNow3:hover {
+            transform: scale(1.1);
+        }
+    }
+}

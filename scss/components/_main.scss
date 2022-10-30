@@ -1,0 +1,147 @@
+
+main {
+    grid-area: main;
+    .hero {
+        background-image: url(../img/HeroBG.png);
+        width: 100%;
+        height: calc(100vh - 92.69px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .tituloEssential {
+            color: white;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 70px;
+        }
+        .parrafo1 {
+            @extend %ParrafosGenerales;
+        }
+        .parrafo2 {
+            @extend %ParrafosGenerales;
+            margin-top: 15px;
+        }
+        .parrafo3 {
+            @extend %ParrafosGenerales;
+            margin-top: 15px;
+        }
+        .buyNow{
+            @extend %BotonGeneral;
+        }
+        .buyNow:hover {
+            transform: scale(1.1);
+        }
+        .botellaGin {
+            width: 300px;
+            height: auto;
+            transition: 2s;
+        }
+        .botellaGin:hover {
+            transform: scale(1.1);
+        }
+    }
+    .sectionHistoria {
+        background-color: #161C0C;
+        @include flexWH (100%, auto, flex, center, baseline);
+        .tituloHistoria {
+            color: white;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 70px;
+        }
+        .h1 {
+            @extend %ParrafosGenerales2;
+        }
+        .h2 {
+            @extend %ParrafosGenerales2;
+            margin-top: 20px;
+        }
+        .h3 {
+            @extend %ParrafosGenerales3;
+            padding: 10px;
+            margin-top: 110px;
+            margin-left: 40px;
+        }
+        .h4 {
+            @extend %ParrafosGenerales3;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+    }
+    .video-gin {
+        background-color: #161C0C;
+        @include flexWH (100%, 70vh, flex, center, center);
+    }
+    .tituloPremios {
+        @extend %titulogrande;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .premios {
+        background-image: url(../img/BgPremios.png);
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        .premios-contenedor{
+            @include flex (flex, space-evenly, center);
+            padding-top: 50px;
+            margin-top: 20px;
+            text-align: center;
+            @extend %ParrafosGenerales2;
+        }
+        .elaborado {
+            @extend %titulogrande;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .boton2 {
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            .buyNow2 {
+                @extend %BotonGeneral;
+            }
+            .buyNow2:hover {
+                transform: scale(1.1);
+            }
+        }            
+    }
+    .galeria {
+        background-color: #161C0C;
+        width: 100%;
+        height: 60vh;
+        .img-galeria{
+            @include flex (flex, left, center);
+            padding-top: 80px;
+            .galeria1 {
+                width: 300px;
+                height: auto;
+            }
+            .galeria2 {
+                width: 338px;
+                height: auto;
+            }
+            .galeria3 {
+                width: 337px;
+                height: auto;
+            }
+            .galeria4 {
+                width: 337px;
+                height: auto;
+            }            
+        }
+        .pgaleria {
+            @extend %ParrafosGenerales4;
+            margin-top: 10px;
+            margin-left: 40px
+        }
+    }
+}

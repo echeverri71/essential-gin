@@ -1,13 +1,18 @@
 /*--------HEADER BOOSTRAP------*/
 
 header {
-    background-color: #2F3925;
+    background-color: $color-cuaternario;
     position: sticky;
     top: 0;
     grid-area: header;
     nav {
-        background-color: #2F3925;
-        color: #BBD1B4;
+        background-color: $color-cuaternario;
+        color: $color-secundario;
+        .logoGN {
+            width: 150px;
+            height: auto;
+            margin: 5px 0px 0px 100px;
+        }
         ul {
             display: flex;
             li {
@@ -15,7 +20,7 @@ header {
                 margin: 20px 0px 10px 0px;
                 a {
                     text-decoration: none;
-                    color: #BBD1B4;
+                    color:$color-secundario;
                     padding-left: 30px;
                     font-family: 'Lato', sans-serif;
                     font-weight: 400;
@@ -24,3 +29,5 @@ header {
         }
     }
 }
+
+/* No entiendo como aplicar las clases de este header de boostrap para que bien aplicado */

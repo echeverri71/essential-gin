@@ -1,0 +1,318 @@
+@media screen and (max-width:1340px) {
+    .destilaria-galeria{
+        width: 100%;
+        height: auto;
+    }
+    
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-galeria {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .galeria1 {
+        width: 400px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+
+    .galeria2 {
+        width: 400px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+
+    .galeria3 {
+        width: 400px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+
+    .galeria4 {
+        width: 400px;
+        height: auto;
+        padding-bottom: 40px;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
+    .pgaleria {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:1015px) {
+    .botellaGin {
+        width: 250px;
+        height: auto;
+    }
+
+    .sectionHistoria {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .p2historia {
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    .h3 {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .h4 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .premios-contenedor {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .elaborado {
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .hero {
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .buyNow2 {
+        width: auto;
+        height: 40px;
+    }
+
+    .botellaGin {
+        width: 200px;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .contenedorh1 {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .ginlogofooter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .premios-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt-footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .buyNow2 {
+        width: auto;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tiendas-compra1 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tiendas-compra2 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tiendas-compra3 {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .titulo-tienda2 {
+        padding-top: 40px;
+    }
+    .titulo-tienda3 {
+        padding-top: 40px;
+    }
+    .titulo-tienda5 {
+        padding-top: 40px;
+    }
+    .titulo-tienda6 {
+        padding-top: 40px;
+    }
+    .titulo-tienda8 {
+        padding-top: 40px;
+    }
+    .titulo-tienda9 {
+        padding-top: 40px;
+    }
+    .boton-contactar9 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .historia-elementos{
+        flex-direction: column;
+    }
+    .p1-historia{
+        margin-top: 40px;
+    }
+    .boton-historia{
+        margin-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .paginaHistoria{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .elementosH{
+        padding-left: 20px;
+    }
+    .buyNow3{
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .elementosH{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Hvideo{
+        width: 500px;
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Hvideo{
+        width: 450px;
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hvideo{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .destileria-section1{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .destileria-elementos{
+        padding-right: 150px;
+    }
+    .destileria-parrafos{
+        padding-right: 150px;
+    }
+    .boton4{
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .destileria-elementos{
+        padding-right: 70px;
+    }
+    .destileria-parrafos{
+        padding-right: 70px;
+    }
+    .boton4{
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .destileria-elementos{
+        padding-right: 20px;
+    }
+    .destileria-parrafos{
+        padding-right: 20px;
+    }
+    .boton4{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .contacto-parrafo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contacto-botella{
+        display: none;
+    }
+    .form{
+        padding-right: 0;
+    }
+    .contacto-parrafo-elementos {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .form-contenedor{
+        width: 350px;
+        height: auto;
+    }
+    
+}
