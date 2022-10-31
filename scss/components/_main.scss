@@ -17,6 +17,9 @@ main {
             color: white;
             font-family: 'Bebas Neue', cursive;
             font-size: 70px;
+            span {
+                color: #BBD1B4;
+            }
         }
         .parrafo1 {
             @extend %ParrafosGenerales;
@@ -51,7 +54,11 @@ main {
             color: white;
             font-family: 'Bebas Neue', cursive;
             font-size: 70px;
+            span {
+                color: #BBD1B4;
+            }
         }
+        
         .h1 {
             @extend %ParrafosGenerales2;
         }

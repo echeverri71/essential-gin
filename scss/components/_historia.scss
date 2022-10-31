@@ -13,6 +13,9 @@
     flex-wrap: wrap;
     .tituloHistoria {
         @extend %titulogrande;
+        span {
+            color: #BBD1B4;
+        }
     }
     .parrafo1{
         @extend %ParrafosGenerales;

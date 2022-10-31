@@ -14,6 +14,9 @@
     padding-bottom: 40px;
     .tt-destileria {
         @extend %titulogrande;
+        span {
+            color: #BBD1B4;
+        }
     }
     .p1-destileria {
         @extend %ParrafosGenerales;

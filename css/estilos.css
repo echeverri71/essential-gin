@@ -156,6 +156,8 @@ main {
       color: white;
       font-family: 'Bebas Neue', cursive;
       font-size: 70px; }
+      main .hero .tituloEssential span {
+        color: #BBD1B4; }
     main .hero .parrafo2 {
       margin-top: 15px; }
     main .hero .parrafo3 {
@@ -179,6 +181,8 @@ main {
       color: white;
       font-family: 'Bebas Neue', cursive;
       font-size: 70px; }
+      main .sectionHistoria .tituloHistoria span {
+        color: #BBD1B4; }
     main .sectionHistoria .h2 {
       margin-top: 20px; }
     main .sectionHistoria .h3 {
@@ -293,6 +297,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
+  .paginaHistoria .tituloHistoria span {
+    color: #BBD1B4; }
   .paginaHistoria .botellaGinHistoria {
     width: 200px;
     height: auto;
@@ -357,6 +363,8 @@ main {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px; }
+  .destileria-section1 .tt-destileria span {
+    color: #BBD1B4; }
   .destileria-section1 .p3-destileria {
     padding-left: 25px; }
   .destileria-section1 .p4-destileria {
@@ -440,54 +448,31 @@ main {
     padding-top: 20px; }
   .contacto-ppal .form {
     padding-right: 40px; }
-    .contacto-ppal .form .form-contenedor {
-      width: 380px;
-      height: auto;
-      background-color: #161C0C;
-      border-radius: 15px;
-      box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-      -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-      -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-      padding: 20px 20px 20px 20px;
-      color: #BBD1B4;
-      font-size: 18px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300; }
-      .contacto-ppal .form .form-contenedor .label {
-        font-size: 18px;
-        font-family: 'Lato', sans-serif;
-        font-weight: bold 300;
-        padding-top: 20px; }
-      .contacto-ppal .form .form-contenedor .boton-enviar {
-        text-decoration: none;
-        margin-top: 20px;
-        padding: 10px;
-        font-weight: bold;
-        font-size: 15px;
-        color: white;
-        background: #5E9E46;
-        border-radius: 50px;
-        border: none;
-        transition: all 0.9s;
-        text-align: center;
-        width: 50%;
-        height: 40px;
-        box-shadow: none; }
-      .contacto-ppal .form .form-contenedor .boton-borrar {
-        text-decoration: none;
-        margin-top: 20px;
-        padding: 10px;
-        font-weight: bold;
-        font-size: 15px;
-        color: black;
-        background: white;
-        border-radius: 50px;
-        border: none;
-        transition: all 0.9s;
-        text-align: center;
-        width: 30%;
-        height: 40px;
-        box-shadow: none; }
+  .contacto-ppal .form-contenedor {
+    width: 450px;
+    height: auto;
+    background-color: #161C0C;
+    border-radius: 15px;
+    box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+    padding: 20px 20px 20px 20px;
+    color: #BBD1B4;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  .contacto-ppal .label {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold 300;
+    padding-top: 20px; }
+  .contacto-ppal .input {
+    background-color: #BBD1B4;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555; }
 
 footer {
   background-color: #2F3925;
