@@ -1,107 +1,114 @@
 
-.destileria-section1 {
-    background-image: url(../img/BgPremios.png);
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    .tt-destileria {
-        @extend %titulogrande;
-        span {
-            color: #BBD1B4;
-        }
-    }
-    .p1-destileria {
-        @extend %ParrafosGenerales;
-    }
-    .p2-destileria {
-        @extend %ParrafosGenerales;
-    }
-    .p3-destileria {
-        @extend %ParrafosGenerales;
-        padding-left: 25px;
-    }
-    .p4-destileria {
-        @extend %ParrafosGenerales;
-        padding-left: 25px;
-        padding-top: 10px;
-    }
-}
-.destileria-galeria {
-    @include flex (flex, left, center);
-    padding-top: 80px;
-    background-color: #161C0C;
-    .galeria1 {
-        width: 360px;
+main {
+    .destileria-section1 {
+        background-image: url(../img/BgPremios.png);
+        width: 100%;
         height: auto;
-        transition: 2s;
-    }
-    .galeria1:hover{
-        transform: scale(1.2);
-    }
-    .galeria2 {
-        width: 420px;
-        height: auto;
-        transition: 2s;
-    }
-    .galeria2:hover{
-        transform: scale(1.2);
-    }
-    .galeria3 {
-        width: 410px;
-        height: auto;
-        transition: 2s;
-    }
-    .galeria3:hover{
-        transform: scale(1.2);
-    }
-}
-
-.destileria-derecha {
-    background-image: url(../img/BgPremios.png);
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 40px;
-    .destileria-elementos{
-        padding-top: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         display: flex;
-        justify-content: right;
-        padding-right: 250px;
-    }
-    .destileria-tt2 {
-        @extend %titulogrande;
-        padding-top: 50px;
-    }
-    .destileria-p3 {
-        @extend %txt-tienda;
-    }
-    .destileria-parrafos {
-        padding-top: 30px;
-        text-align: right;
-        padding-right: 250px;
-        flex-direction: column;
-    }
-    .boton4 {
-        padding-top: 30px;
-        display: flex;
-        justify-content: right;
-        padding-right: 250px;
-        .buyNow4 {
-            @extend %BotonComprar;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .tt-destileria {
+            @extend %titulogrande;
+            span {
+                color: #BBD1B4;
+            }
         }
-        .buyNow4:hover {
-            transform: scale(1.1);
+        .p1-destileria {
+            @extend %ParrafosGenerales;
+        }
+        .p2-destileria {
+            @extend %ParrafosGenerales;
+        }
+        .p3-destileria {
+            @extend %ParrafosGenerales;
+            padding-left: 25px;
+        }
+        .p4-destileria {
+            @extend %ParrafosGenerales;
+            padding-left: 25px;
+            padding-top: 10px;
         }
     }
-}
+    .destileriaGaleria {
+        background-color: #161C0C;
+        width: 100%;
+        height: auto;
+        padding-bottom: 80px;
+        .galeriaFotos {
+            @include flex (flex, left, center);
+            padding-top: 80px;
+        }
+        .foto1 {
+            width: 360px;
+            height: auto;
+            transition: 2s;
+        }
+        .foto1:hover{
+            transform: scale(1.2);
+        }
+        .foto2 {
+            width: 420px;
+            height: auto;
+            transition: 2s;
+        }
+        .foto2:hover{
+            transform: scale(1.2);
+        }
+        .foto3 {
+            width: 410px;
+            height: auto;
+            transition: 2s;
+        }
+        .foto3:hover{
+            transform: scale(1.2);
+        }
+    }
+    .destileria-derecha {
+        background-image: url(../img/BgPremios.png);
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 40px;
+        .destileria-elementos{
+            padding-top: 30px;
+            display: flex;
+            justify-content: right;
+            padding-right: 250px;
+        }
+        .destileria-tt2 {
+            @extend %titulogrande;
+            padding-top: 50px;
+        }
+        .destileria-p3 {
+            @extend %txt-tienda;
+        }
+        .destileria-parrafos {
+            padding-top: 30px;
+            text-align: right;
+            padding-right: 250px;
+            flex-direction: column;
+        }
+        .boton4 {
+            padding-top: 30px;
+            display: flex;
+            justify-content: right;
+            padding-right: 250px;
+            .buyNow4 {
+                @extend %BotonComprar;
+            }
+            .buyNow4:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}    
+    

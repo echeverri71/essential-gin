@@ -29,7 +29,7 @@ main .hero .buyNow, main .premios .boton2 .buyNow2 {
   box-shadow: none;
   transition: 1s; }
 
-.comprar-ahora .tiendas-compra1 .boton-contactar1, .comprar-ahora .tiendas-compra1 .boton-contactar2, .comprar-ahora .tiendas-compra1 .boton-contactar3, .comprar-ahora .tiendas-compra2 .boton-contactar4, .comprar-ahora .tiendas-compra2 .boton-contactar5, .comprar-ahora .tiendas-compra2 .boton-contactar6, .comprar-ahora .tiendas-compra3 .boton-contactar7, .comprar-ahora .tiendas-compra3 .boton-contactar8, .comprar-ahora .tiendas-compra3 .boton-contactar9, .destileria-derecha .boton4 .buyNow4 {
+.comprar-ahora .tiendas-compra1 .boton-contactar1, .comprar-ahora .tiendas-compra1 .boton-contactar2, .comprar-ahora .tiendas-compra1 .boton-contactar3, .comprar-ahora .tiendas-compra2 .boton-contactar4, .comprar-ahora .tiendas-compra2 .boton-contactar5, .comprar-ahora .tiendas-compra2 .boton-contactar6, .comprar-ahora .tiendas-compra3 .boton-contactar7, .comprar-ahora .tiendas-compra3 .boton-contactar8, .comprar-ahora .tiendas-compra3 .boton-contactar9, main .destileria-derecha .boton4 .buyNow4 {
   text-decoration: none;
   margin-top: 15px;
   padding: 10px;
@@ -62,7 +62,7 @@ main .hero .buyNow, main .premios .boton2 .buyNow2 {
   height: 40px;
   box-shadow: none; }
 
-main .hero .parrafo1, main .hero .parrafo2, main .hero .parrafo3, .paginaHistoria .parrafo1, .paginaHistoria .parrafo2, .paginaHistoria .parrafo3, .destileria-section1 .p1-destileria, .destileria-section1 .p2-destileria, .destileria-section1 .p3-destileria, .destileria-section1 .p4-destileria {
+main .hero .parrafo1, main .hero .parrafo2, main .hero .parrafo3, .paginaHistoria .parrafo1, .paginaHistoria .parrafo2, .paginaHistoria .parrafo3, main .destileria-section1 .p1-destileria, main .destileria-section1 .p2-destileria, main .destileria-section1 .p3-destileria, main .destileria-section1 .p4-destileria {
   color: #BBD1B4;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
@@ -80,7 +80,7 @@ main .sectionHistoria .h3, main .sectionHistoria .h4, .historia-img-p .p2-histor
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-main .tituloPremios, main .premios .elaborado, .comprar-ahora .donde-comprar, .paginaHistoria .tituloHistoria, .destileria-section1 .tt-destileria, .destileria-derecha .destileria-tt2, .contacto-ppal .contacto-tt {
+main .tituloPremios, main .premios .elaborado, .comprar-ahora .donde-comprar, .paginaHistoria .tituloHistoria, main .destileria-section1 .tt-destileria, main .destileria-derecha .destileria-tt2, .contacto-ppal .contacto-tt {
   color: #ffffff;
   font-size: 60px;
   font-family: 'Bebas Neue', cursive; }
@@ -100,7 +100,7 @@ footer .logoig, footer .logofb, footer .logowa {
   font-family: 'Bebas Neue', cursive;
   font-size: 40px; }
 
-.comprar-ahora .tiendas-compra1 .txt-tienda, .comprar-ahora .tiendas-compra2 .txt-tienda, .comprar-ahora .tiendas-compra3 .txt-tienda, .destileria-derecha .destileria-p3, .contacto-ppal .contacto-p, .contacto-ppal .contacto-p1 {
+.comprar-ahora .tiendas-compra1 .txt-tienda, .comprar-ahora .tiendas-compra2 .txt-tienda, .comprar-ahora .tiendas-compra3 .txt-tienda, main .destileria-derecha .destileria-p3, .contacto-ppal .contacto-p, .contacto-ppal .contacto-p1 {
   color: #BBD1B4;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
@@ -356,7 +356,7 @@ main {
     .historia-img-p .boton-historia .buyNow3:hover {
       transform: scale(1.1); }
 
-.destileria-section1 {
+main .destileria-section1 {
   background-image: url(../img/BgPremios.png);
   width: 100%;
   height: auto;
@@ -369,40 +369,44 @@ main {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px; }
-  .destileria-section1 .tt-destileria span {
+  main .destileria-section1 .tt-destileria span {
     color: #BBD1B4; }
-  .destileria-section1 .p3-destileria {
+  main .destileria-section1 .p3-destileria {
     padding-left: 25px; }
-  .destileria-section1 .p4-destileria {
+  main .destileria-section1 .p4-destileria {
     padding-left: 25px;
     padding-top: 10px; }
 
-.destileria-galeria {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding-top: 80px;
-  background-color: #161C0C; }
-  .destileria-galeria .galeria1 {
+main .destileriaGaleria {
+  background-color: #161C0C;
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px; }
+  main .destileriaGaleria .galeriaFotos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 80px; }
+  main .destileriaGaleria .foto1 {
     width: 360px;
     height: auto;
     transition: 2s; }
-  .destileria-galeria .galeria1:hover {
+  main .destileriaGaleria .foto1:hover {
     transform: scale(1.2); }
-  .destileria-galeria .galeria2 {
+  main .destileriaGaleria .foto2 {
     width: 420px;
     height: auto;
     transition: 2s; }
-  .destileria-galeria .galeria2:hover {
+  main .destileriaGaleria .foto2:hover {
     transform: scale(1.2); }
-  .destileria-galeria .galeria3 {
+  main .destileriaGaleria .foto3 {
     width: 410px;
     height: auto;
     transition: 2s; }
-  .destileria-galeria .galeria3:hover {
+  main .destileriaGaleria .foto3:hover {
     transform: scale(1.2); }
 
-.destileria-derecha {
+main .destileria-derecha {
   background-image: url(../img/BgPremios.png);
   width: 100%;
   height: auto;
@@ -411,24 +415,24 @@ main {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 40px; }
-  .destileria-derecha .destileria-elementos {
+  main .destileria-derecha .destileria-elementos {
     padding-top: 30px;
     display: flex;
     justify-content: right;
     padding-right: 250px; }
-  .destileria-derecha .destileria-tt2 {
+  main .destileria-derecha .destileria-tt2 {
     padding-top: 50px; }
-  .destileria-derecha .destileria-parrafos {
+  main .destileria-derecha .destileria-parrafos {
     padding-top: 30px;
     text-align: right;
     padding-right: 250px;
     flex-direction: column; }
-  .destileria-derecha .boton4 {
+  main .destileria-derecha .boton4 {
     padding-top: 30px;
     display: flex;
     justify-content: right;
     padding-right: 250px; }
-    .destileria-derecha .boton4 .buyNow4:hover {
+    main .destileria-derecha .boton4 .buyNow4:hover {
       transform: scale(1.1); }
 
 .contacto-ppal {
@@ -500,6 +504,7 @@ footer {
     width: 120px;
     height: auto; }
 
+/*---------INDEX---------*/
 @media screen and (max-width: 1200px) {
   .galeria {
     width: 100%;
@@ -629,6 +634,34 @@ footer {
     font-size: 14px;
     width: auto; } }
 
+/*-----------DESTILERIA-----------*/
+@media screen and (max-width: 1220px) {
+  .destileria-galeria {
+    width: 100%;
+    height: auto; }
+  .d-galeria {
+    flex-direction: column; }
+  main .galeria .img-galeria .galeria1 {
+    width: 420px;
+    height: auto;
+    transition: 2s; }
+  .galeria1:hover {
+    transform: scale(1.1); }
+  main .galeria .img-galeria .galeria2 {
+    width: 420px;
+    height: auto;
+    transition: 2s; }
+  .galeria2:hover {
+    transform: scale(1.1); }
+  main .galeria .img-galeria .galeria3 {
+    width: 420px;
+    height: auto;
+    padding-bottom: 10px;
+    transition: 2s; }
+  .galeria3:hover {
+    transform: scale(1.1); } }
+
+/*------- COMPRAR AHORA MEDIA------*/
 @media screen and (max-width: 1100px) {
   .tiendas-compra1 {
     text-align: center;
@@ -657,6 +690,7 @@ footer {
   .boton-contactar9 {
     margin-bottom: 40px; } }
 
+/*--------------HISTORIA----------*/
 @media screen and (max-width: 1220px) {
   .historia-elementos {
     flex-direction: column; }
@@ -695,6 +729,7 @@ footer {
   .Hvideo {
     padding: 30px; } }
 
+/*--------DESTILERIA----------*/
 @media screen and (max-width: 1000px) {
   .destileria-section1 {
     flex-direction: column; } }
@@ -723,6 +758,7 @@ footer {
   .boton4 {
     padding-right: 20px; } }
 
+/*-------------CONTACTO----------*/
 @media screen and (max-width: 1050px) {
   .contacto-parrafo {
     flex-direction: column;
