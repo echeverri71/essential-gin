@@ -80,6 +80,24 @@ transition2: 1s,
     box-shadow: none;
 }
 
+%BotonComprar3{
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background: #5E9E46;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.9s;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    box-shadow: none;
+    transition: 1s;
+}
+
 %ParrafosGenerales{
     color: $color-secundario;
     font-size: 18px;

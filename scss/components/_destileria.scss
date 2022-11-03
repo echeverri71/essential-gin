@@ -20,18 +20,25 @@ main {
             }
         }
         .p1-destileria {
-            @extend %ParrafosGenerales;
+            color: $color-principal;
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            padding-top: 15px;
         }
         .p2-destileria {
-            @extend %ParrafosGenerales;
+            color: $color-principal;
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
         }
         .p3-destileria {
             @extend %ParrafosGenerales;
-            padding-left: 25px;
+            padding-left: 30px;
         }
         .p4-destileria {
             @extend %ParrafosGenerales;
-            padding-left: 25px;
+            padding-left: 30px;
             padding-top: 10px;
         }
     }
@@ -87,6 +94,9 @@ main {
         .destileria-tt2 {
             @extend %titulogrande;
             padding-top: 50px;
+            span {
+                color: #BBD1B4;
+            }
         }
         .destileria-p3 {
             @extend %txt-tienda;
@@ -98,12 +108,12 @@ main {
             flex-direction: column;
         }
         .boton4 {
-            padding-top: 30px;
+            padding-top: 20px;
             display: flex;
             justify-content: right;
             padding-right: 250px;
             .buyNow4 {
-                @extend %BotonComprar;
+                @extend %BotonComprar3;
             }
             .buyNow4:hover {
                 transform: scale(1.1);

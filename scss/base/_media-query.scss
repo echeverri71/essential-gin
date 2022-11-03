@@ -180,14 +180,14 @@
 }
 /*-----------DESTILERIA-----------*/
 @media screen and (max-width:1220px) {
-    .destileria-galeria {
+    main .destileriaGaleria {
         width: 100%;
         height: auto;
     }
-    .d-galeria {
+    main .destileriaGaleria .galeriaFotos {
         flex-direction: column;
     }
-    main .galeria .img-galeria .galeria1 {
+    main .destileriaGaleria .galeriaFotos .foto1 {
         width: 420px;
         height: auto;
         transition: 2s;
@@ -195,7 +195,7 @@
     .galeria1:hover {
         transform: scale(1.1);
     }
-    main .galeria .img-galeria .galeria2 {
+    main .destileriaGaleria .galeriaFotos .foto2 {
         width: 420px;
         height: auto;
         transition: 2s;
@@ -203,7 +203,7 @@
     .galeria2:hover {
         transform: scale(1.1);
     }
-    main .galeria .img-galeria .galeria3 {
+    main .destileriaGaleria .galeriaFotos .foto3 {
         width: 420px;
         height: auto;
         padding-bottom: 10px;
@@ -214,6 +214,18 @@
     }
 }
 
+
+@media screen and (max-width:1060px) {
+    main .destileria-section1 .p3y4 .p3-destileria{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    main .destileria-section1 .p3y4{
+        padding-left: 50px;
+    }
+}
 
 
 /*------- COMPRAR AHORA MEDIA------*/
