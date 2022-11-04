@@ -89,7 +89,7 @@ main {
             padding-top: 30px;
             display: flex;
             justify-content: right;
-            padding-right: 250px;
+            padding-right: 350px;
         }
         .destileria-tt2 {
             @extend %titulogrande;
@@ -104,14 +104,14 @@ main {
         .destileria-parrafos {
             padding-top: 30px;
             text-align: right;
-            padding-right: 250px;
+            padding-right: 350px;
             flex-direction: column;
         }
         .boton4 {
             padding-top: 20px;
             display: flex;
             justify-content: right;
-            padding-right: 250px;
+            padding-right: 350px;
             .buyNow4 {
                 @extend %BotonComprar3;
             }
