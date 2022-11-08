@@ -41,7 +41,7 @@ main .hero .buyNow, main .premios .boton2 .buyNow2 {
   border: none;
   transition: all 0.9s;
   text-align: center;
-  width: 40%;
+  width: auto;
   height: auto;
   box-shadow: none;
   transition: 1s; }
@@ -287,24 +287,44 @@ main {
   .comprar-ahora .donde-comprar {
     padding-top: 40px;
     text-align: center; }
+    .comprar-ahora .donde-comprar span {
+      color: #BBD1B4; }
+  .comprar-ahora .tiendas-compra1 .titulo-tienda1 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra1 .boton-contactar1:hover {
     transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra1 .titulo-tienda2 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra1 .boton-contactar2:hover {
     transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra1 .titulo-tienda3 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra1 .boton-contactar3:hover {
     transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .titulo-tienda4 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra2 .boton-contactar4:hover {
     transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .titulo-tienda5 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra2 .boton-contactar5:hover {
     transform: scale(1.1); }
+  .comprar-ahora .tiendas-compra2 .titulo-tienda6 span {
+    color: #BBD1B4; }
   .comprar-ahora .tiendas-compra2 .boton-contactar6:hover {
     transform: scale(1.1); }
   .comprar-ahora .tiendas-compra3 {
     padding-bottom: 40px; }
+    .comprar-ahora .tiendas-compra3 .titulo-tienda7 span {
+      color: #BBD1B4; }
     .comprar-ahora .tiendas-compra3 .boton-contactar7:hover {
       transform: scale(1.1); }
+    .comprar-ahora .tiendas-compra3 .titulo-tienda8 span {
+      color: #BBD1B4; }
     .comprar-ahora .tiendas-compra3 .boton-contactar8:hover {
       transform: scale(1.1); }
+    .comprar-ahora .tiendas-compra3 .titulo-tienda9 span {
+      color: #BBD1B4; }
     .comprar-ahora .tiendas-compra3 .boton-contactar9:hover {
       transform: scale(1.1); }
 
@@ -622,31 +642,6 @@ footer {
     height: 40px; } }
 
 @media screen and (max-width: 580px) {
-  main .video-gin .video1 {
-    width: 400px;
-    height: 315px; } }
-
-@media screen and (max-width: 450px) {
-  main .galeria .img-galeria .galeria1 {
-    width: 300px;
-    height: auto; }
-  main .galeria .img-galeria .galeria2 {
-    width: 300px;
-    height: auto; }
-  main .galeria .img-galeria .galeria3 {
-    width: 300px;
-    height: auto; }
-  main .galeria .pgaleria {
-    font-size: 16px;
-    text-align: center;
-    justify-content: center; } }
-
-@media screen and (max-width: 415px) {
-  main .video-gin .video1 {
-    width: 300px;
-    height: 215px; } }
-
-@media screen and (max-width: 350px) {
   main .hero {
     padding: 10px; }
   main .hero .tituloEssential {
@@ -662,7 +657,58 @@ footer {
     font-size: 16px; }
   main .hero .buyNow {
     font-size: 14px;
-    width: auto; } }
+    width: auto; }
+  main .video-gin {
+    width: 100%;
+    height: 500px; }
+  main .video-gin .video1 {
+    width: 400px;
+    height: 315px; }
+  main .premios .elaborado {
+    font-size: 45px; } }
+
+@media screen and (max-width: 450px) {
+  main .galeria .img-galeria .galeria1 {
+    width: 300px;
+    height: auto; }
+  main .galeria .img-galeria .galeria2 {
+    width: 300px;
+    height: auto; }
+  main .galeria .img-galeria .galeria3 {
+    width: 300px;
+    height: auto; }
+  main .galeria .pgaleria {
+    font-size: 16px;
+    text-align: center;
+    justify-content: center; }
+  main .premios .elaborado {
+    font-size: 40px; } }
+
+@media screen and (max-width: 415px) {
+  main .video-gin .video1 {
+    width: 300px;
+    height: 215px; } }
+
+@media screen and (max-width: 390px) {
+  main .hero {
+    padding: 10px; }
+  main .hero .tituloEssential {
+    padding: 5px; }
+  main .hero .parrafo1 {
+    padding: 10px;
+    font-size: 16px; }
+  main .hero .parrafo2 {
+    padding: 10px;
+    font-size: 16px; }
+  main .hero .parrafo3 {
+    padding: 10px;
+    font-size: 16px; }
+  main .hero .buyNow {
+    font-size: 14px;
+    width: auto; }
+  main .premios .boton2 .buyNow2 {
+    width: auto;
+    height: auto; } }
 
 /*-----------DESTILERIA-----------*/
 @media screen and (max-width: 1220px) {

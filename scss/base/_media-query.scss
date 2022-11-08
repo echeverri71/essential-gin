@@ -121,40 +121,6 @@
 }
 
 @media screen and (max-width: 580px) {
-    main .video-gin .video1{
-        width: 400px;
-        height: 315px;
-    }
-}
-
-@media screen and (max-width: 450px){
-    main .galeria .img-galeria .galeria1 {
-        width: 300px;
-        height: auto;
-    }
-    main .galeria .img-galeria .galeria2 {
-        width: 300px;
-        height: auto;
-    }
-    main .galeria .img-galeria .galeria3 {
-        width: 300px;
-        height: auto;
-    }
-    main .galeria .pgaleria{
-        font-size: 16px;
-        text-align: center;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    main .video-gin .video1{
-        width: 300px;
-        height: 215px;
-    }
-}
-
-@media screen and (max-width: 350px) {
     main .hero{
         padding: 10px;
     }
@@ -176,6 +142,76 @@
     main .hero .buyNow{
         font-size: 14px;
         width: auto;
+    }
+    main .video-gin{
+        width: 100%;
+        height: 500px;
+    }
+    main .video-gin .video1{
+        width: 400px;
+        height: 315px;
+    }
+    main .premios .elaborado{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    main .galeria .img-galeria .galeria1 {
+        width: 300px;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria2 {
+        width: 300px;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria3 {
+        width: 300px;
+        height: auto;
+    }
+    main .galeria .pgaleria{
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+    main .premios .elaborado{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    main .video-gin .video1{
+        width: 300px;
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    main .hero{
+        padding: 10px;
+    }
+    main .hero .tituloEssential{
+        padding: 5px;
+    }
+    main .hero .parrafo1{
+        padding: 10px;
+        font-size: 16px;
+    }
+    main .hero .parrafo2{
+        padding: 10px;
+        font-size: 16px;
+    }
+    main .hero .parrafo3{
+        padding: 10px;
+        font-size: 16px;
+    }
+    main .hero .buyNow{
+        font-size: 14px;
+        width: auto;
+    }
+    main .premios .boton2 .buyNow2{
+        width: auto;
+        height: auto;
     }
 }
 /*-----------DESTILERIA-----------*/

@@ -11,11 +11,17 @@
         @extend %titulogrande;
         padding-top: 40px;
         text-align: center;
+        span {
+            color: #BBD1B4;
+        }
     }
     .tiendas-compra1{
         @extend %tiendascompra;
         .titulo-tienda1{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .txt-tienda{
             @extend %txt-tienda;
@@ -28,6 +34,9 @@
         }
         .titulo-tienda2{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar2{
             @extend %BotonComprar;
@@ -37,6 +46,9 @@
         }
         .titulo-tienda3{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar3{
             @extend %BotonComprar;
@@ -49,6 +61,9 @@
         @extend %tiendascompra;
         .titulo-tienda4{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .txt-tienda{
             @extend %txt-tienda;
@@ -61,6 +76,9 @@
         }
         .titulo-tienda5{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar5{
             @extend %BotonComprar;
@@ -70,6 +88,9 @@
         }
         .titulo-tienda6{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar6{
             @extend %BotonComprar;
@@ -83,6 +104,9 @@
         padding-bottom: 40px;
         .titulo-tienda7{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .txt-tienda{
             @extend %txt-tienda;
@@ -95,6 +119,9 @@
         }
         .titulo-tienda8{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar8{
             @extend %BotonComprar;
@@ -104,6 +131,9 @@
         }
         .titulo-tienda9{
             @extend %titulotienda;
+            span {
+                color: #BBD1B4;
+            }
         }
         .boton-contactar9{
             @extend %BotonComprar;
