@@ -1,5 +1,156 @@
 /*---------INDEX---------*/
-
+@media screen and (max-width:1740px) {
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria1 {
+        width: 320px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria2 {
+        width: 370px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria3 {
+        width: 360px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria4 {
+        width: 436px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1520px) {
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria1 {
+        width: 295px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria2 {
+        width: 337px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria3 {
+        width: 326px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria4 {
+        width: 393px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1300px) {
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria1 {
+        width: 270px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria2 {
+        width: 312px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria3 {
+        width: 301px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria4 {
+        width: 365px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1265px) {
+    .galeria {
+        width: 100%;
+        height: auto;
+    }
+    main .galeria .img-galeria .galeria1 {
+        width: 250px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria1:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria2 {
+        width: 292px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria2:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria3 {
+        width: 281px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .galeria4 {
+        width: 345px;
+        height: auto;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
+}
 @media screen and (max-width:1200px) {
     .galeria {
         width: 100%;
@@ -27,16 +178,25 @@
     main .galeria .img-galeria .galeria3 {
         width: 420px;
         height: auto;
-        padding-bottom: 10px;
         transition: 2s;
     }
     .galeria3:hover {
         transform: scale(1.1);
     }
+    main .galeria .img-galeria .galeria4 {
+        width: 420px;
+        height: auto;
+        padding-bottom: 10px;
+        transition: 2s;
+    }
+    .galeria4:hover {
+        transform: scale(1.1);
+    }
     main .galeria .pgaleria {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 40px;
+        margin-left: 0px;
     }
 }
 @media screen and (max-width:1090px){
@@ -45,12 +205,11 @@
     }
 }
 
-@media screen and (max-width:1015px) {
+@media screen and (max-width:1012px) {
     main .botellaGin {
         width: 250px;
         height: auto;
     }
-
     main .sectionHistoria {
         width: 100%;
         height: auto;
@@ -59,44 +218,62 @@
         flex-direction: column;
         padding-top: 40px;
     }
-
-    main .p2historia {
+    main .sectionHistoria .p1historia{
         margin-top: 0px;
-        padding: 0;
+        padding: 0px;
+        width: 80%;
+        height: auto;
     }
-
-    main .p2historia .h3 {
-        padding: 15px;
-        margin: 0;
+    main .sectionHistoria .p2historia{
+        margin: 0px;
+        padding: 0px;
+        width: 80%;
+        height: auto;
     }
-
-    main .p2historia .h4 {
-        padding: 10px;
-        margin: 0;
-    }
+        
+    
     main .premios .boton2 {
         padding-top: 0px;
     }
+    
 }
 @media screen and (max-width: 850px) {
     main .hero {
         width: 100%;
         height: auto;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
     main .botellaGin {
         width: 200px;
         height: auto;
         padding-top: 40px;
         padding-bottom: 30px;
+    }
+    main .hero .buyNow {
+        width: auto;
+        height: auto;
     }    
 }
-
+@media screen and (max-width: 770px) {
+    main .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    main .hero .tituloEssential {
+        font-size: 60px;
+    }
+    main .hero .elementoshero {
+        width: 60%;
+        height: auto;
+    }
+}
 @media screen and (max-width: 725px) {
     .ginlogofooter {
         display: none;
     }
 }
+
 
 @media screen and (max-width: 630px) {
     main .premios .premios-contenedor {
@@ -169,10 +346,12 @@
         width: 300px;
         height: auto;
     }
-    main .galeria .pgaleria{
+    main .galeria .img-galeria .galeria4 {
+        width: 300px;
+        height: auto;
+    }
+    main .galeria .pgaleria p{
         font-size: 16px;
-        text-align: center;
-        justify-content: center;
     }
     main .premios .elaborado{
         font-size: 40px;
@@ -215,6 +394,196 @@
     }
 }
 /*-----------DESTILERIA-----------*/
+@media screen and (max-width:1740px) {
+    .main .destileriaGaleria {
+        width: 100%;
+        height: auto;
+    }
+    main .destileriaGaleria .galeriaFotos .foto1 {
+        width: 320px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto1:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto2 {
+        width: 370px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto2:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto3 {
+        width: 360px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 436px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1630px) {
+    main .destileriaGaleria {
+        width: 100%;
+        height: auto;
+    }
+    main .destileriaGaleria .galeriaFotos .foto1 {
+        width: 295px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto1:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto2 {
+        width: 337px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto2:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto3 {
+        width: 326px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 393px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1485px) {
+    main .destileriaGaleria {
+        width: 100%;
+        height: auto;
+    }
+    main .destileriaGaleria .galeriaFotos .foto1 {
+        width: 270px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto1:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto2 {
+        width: 312px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto2:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto3 {
+        width: 301px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 365px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1370px) {
+    main .destileriaGaleria {
+        width: 100%;
+        height: auto;
+    }
+    main .destileriaGaleria .galeriaFotos .foto1 {
+        width: 250px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto1:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto2 {
+        width: 292px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto2:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto3 {
+        width: 281px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 345px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto4:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width:1280px) {
+    main .destileriaGaleria {
+        width: 100%;
+        height: auto;
+    }
+    main .destileriaGaleria .galeriaFotos .foto1 {
+        width: 220px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto1:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto2 {
+        width: 262px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto2:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .foto3 {
+        width: 251px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .galeria .img-galeria .foto4 {
+        width: 315px;
+        height: auto;
+        transition: 2s;
+    }
+    .foto4:hover {
+        transform: scale(1.1);
+    }
+}
 @media screen and (max-width:1220px) {
     main .destileriaGaleria {
         width: 100%;
@@ -228,7 +597,7 @@
         height: auto;
         transition: 2s;
     }
-    .galeria1:hover {
+    .foto1:hover {
         transform: scale(1.1);
     }
     main .destileriaGaleria .galeriaFotos .foto2 {
@@ -236,79 +605,53 @@
         height: auto;
         transition: 2s;
     }
-    .galeria2:hover {
+    .foto2:hover {
         transform: scale(1.1);
     }
     main .destileriaGaleria .galeriaFotos .foto3 {
         width: 420px;
         height: auto;
+        transition: 2s;
+    }
+    .foto3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 420px;
+        height: auto;
         padding-bottom: 10px;
         transition: 2s;
     }
-    .galeria3:hover {
+    .foto4:hover {
         transform: scale(1.1);
     }
 }
-@media screen and (max-width:800px) {
-    main .destileria-derecha .destileria-elementos{
-        padding-right: 150px;
+@media screen and (max-width:1000px) {
+    .destileria-section1{
+        flex-direction: column;
     }
-    main .destileria-derecha .destileria-parrafos {
-        padding-right: 150px;
+    main .destileria-section1 .ele-destileria{
+        width: 80%;
+        height: auto;
+        padding-left: 100px;
     }
-    main .destileria-derecha .boton4 {
-        padding-right: 150px;
+    main .destileria-section1 .p3y4 {
+        width: 80%;
+        height: auto;
+        padding-left: 100px;
+        padding-top: 20px;
     }
-}
-@media screen and (max-width:685px) {
-    main .destileria-derecha .destileria-elementos{
-        padding-right: 100px;
-    }
-    main .destileria-derecha .destileria-parrafos {
-        padding-right: 100px;
-    }
-    main .destileria-derecha .boton4 {
-        padding-right: 100px;
-    }
-}
-
-@media screen and (max-width:570px) {
-    main .destileria-derecha .destileria-elementos{
-        padding-right: 70px;
-    }
-    main .destileria-derecha .destileria-parrafos {
-        padding-right: 70px;
-    }
-    main .destileria-derecha .boton4 {
-        padding-right: 70px;
+    main .destileria-derecha .destileria-elementos {
+        width: 80%;
+        height: auto;
+        padding-left: 300px;
     }
 }
-@media screen and (max-width:510px){
-    main .destileria-section1 .tt-destileria{
-        text-align: center;
-    }
-    main .destileria-section1{
-        padding: 10px;
-    }
-    main .destileria-section1 .p1-destileria{
-        padding: 0px;
-        font-size: 16px;
-        text-align: center;
-    }
-    main .destileria-section1 .p2-destileria{
-        padding: 0px;
-        font-size: 16px;
-        text-align: center;
-    }
-    main .destileria-section1 .p3-destileria{
-        padding: 0px;
-        font-size: 16px;
-        text-align: center;
-    }
-    main .destileria-section1 .p4-destileria{
-        padding: 0px;
-        font-size: 16px;
-        text-align: center;
+@media screen and (max-width:830px) {
+    main .destileria-derecha .destileria-elementos {
+        width: 90%;
+        height: auto;
+        padding-left: 200px;
     }
 }
 @media screen and (max-width:440px){
@@ -331,11 +674,47 @@
     main .destileriaGaleria .galeriaFotos .foto3 {
         width: 380px;
         height: auto;
+        transition: 2s;
+    }
+    .galeria3:hover {
+        transform: scale(1.1);
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 380px;
+        height: auto;
         padding-bottom: 10px;
         transition: 2s;
     }
     .galeria3:hover {
         transform: scale(1.1);
+    }
+}
+@media screen and (max-width:800px) {
+    main .destileria-derecha .destileria-elementos {
+        width: 90%;
+        height: auto;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:630px) {
+    main .destileria-derecha .destileria-elementos {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    main .destileria-section1 .ele-destileria{
+        width: 90%;
+        height: auto;
+        padding-left: 50px;
+    }
+    main .destileria-section1 .p3y4 {
+        width: 90%;
+        height: auto;
+        padding-left: 50px;
+        padding-top: 20px;
     }
 }
 @media screen and (max-width:400px){
@@ -352,19 +731,47 @@
     main .destileriaGaleria .galeriaFotos .foto3 {
         width: 300px;
         height: auto;
+        transition: 2s;
+    }
+    main .destileriaGaleria .galeriaFotos .foto4 {
+        width: 300px;
+        height: auto;
         padding-bottom: 10px;
         transition: 2s;
     }
     main .destileria-derecha .destileria-p3 {
         font-size: 15px;
     }
-    main .destileria-derecha .boton4 .buyNow4{
+    main .destileria-derecha .destileria-elementos .buyNow4{
         font-size: 14px;
         width: 50%;
+        height: auto;
     }
 }
-
-
+@media screen and (max-width:380px) {
+    main .destileria-section1 .ele-destileria .tt-destileria {
+        font-size: 40px;
+    }
+    main .destileria-section1 .ele-destileria .p1-destileria {
+        font-size: 16px;
+    }
+    main .destileria-section1 .ele-destileria .p2-destileria{
+        font-size: 16px;
+    }
+    main .destileria-section1 .p3y4 .p3-destileria {
+        font-size: 16px;
+    }
+    main .destileria-derecha .destileria-elementos .destileria-tt2 {
+        font-size: 40px;
+    }
+    main .destileria-derecha .destileria-elementos .destileria-p3 {
+        font-size: 16px;
+    }
+    main .destileria-derecha .destileria-elementos .buyNow4 {
+        width: 60%;
+        height: auto;
+    }
+}
 /*------- COMPRAR AHORA MEDIA------*/
 @media screen and (max-width: 1100px) {
     .tiendas-compra1 {
@@ -415,6 +822,10 @@
     .p1-historia{
         margin-top: 40px;
     }
+    .p2-historia{
+        width: 40%;
+        height: auto;
+    }
     .boton-historia{
         margin-top: 30px;
         padding-bottom: 40px;
@@ -426,110 +837,118 @@
         width: 100%;
         height: auto;
         padding-bottom: 40px;
+        flex-direction: column;
     }
-    .elementosH{
-        padding-left: 20px;
+    .paginaHistoria .elementosH {
+        width: 70%;
+        height: auto;
     }
-    .buyNow3{
+    .paginaHistoria .botellaGinHistoria{
+        width: 180px;
+        height: auto;
+        margin: 30px;
+        transition: 1s;
+    }
+    .paginaHistoria .botellaGinHistoria:hover {
+        transform: scale(1.1);
+    }
+    .historia-img-p .p1-historia {
+        width: 70%;
+        height: auto;
+        padding: 0px;
+    }
+    .historia-img-p .p2-historia {
+        width: 70%;
+        height: auto;
+    }
+    .historia-img-p .boton-historia .buyNow3{
         width: 30%;
         height: auto;
     }
 }
 
-@media screen and (max-width: 630px) {
-    .elementosH{
-        padding-left: 30px;
+@media screen and (max-width: 450px) {
+    .paginaHistoria .botellaGinHistoria{
+        width: 150px;
+        height: auto;
+        margin-top: 30px;
+        transition: 1s;
+    }
+    .paginaHistoria .botellaGinHistoria:hover {
+        transform: scale(1.1);
+    }
+    .historia-img-p .foto-historia{
+        width: 350px;
+        height: auto;
+    }
+    .historia-img-p .p1-historia {
+        width: 80%;
+        height: auto;
+    }
+    .historia-img-p .p2-historia {
+        width: 80%;
+        height: auto;
+    }
+    .historia-img-p .boton-historia .buyNow3{
+        width: 40%;
+        height: auto;
+    }
+    .videoHistoria .videoH .Hvideo {
+        width: 300px;
+        height: auto;
     }
 }
-
-@media screen and (max-width: 600px) {
-    .Hvideo{
-        width: 500px;
-        height: 315px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .Hvideo{
-        width: 450px;
-        height: 315px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .Hvideo{
-        padding: 30px;
-    }
-}
-
-/*--------DESTILERIA----------*/
-
-@media screen and (max-width:1000px) {
-    .destileria-section1{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .destileria-elementos{
-        padding-right: 150px;
-    }
-    .destileria-parrafos{
-        padding-right: 150px;
-    }
-    .boton4{
-        padding-right: 150px;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .destileria-elementos{
-        padding-right: 70px;
-    }
-    .destileria-parrafos{
-        padding-right: 70px;
-    }
-    .boton4{
-        padding-right: 70px;
-    }
-}
-
-@media screen and (max-width:530px) {
-    .destileria-elementos{
-        padding-right: 20px;
-    }
-    .destileria-parrafos{
-        padding-right: 20px;
-    }
-    .boton4{
-        padding-right: 20px;
+@media screen and (max-width: 370px) {
+    .historia-img-p .foto-historia{
+        width: 300px;
+        height: auto;
     }
 }
 
 /*-------------CONTACTO----------*/
 
 @media screen and (max-width:1050px) {
-    .contacto-parrafo{
+    main .contacto-ppal .contacto-parrafo{
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
+        
+    }
+
+    main .contacto-ppal .contacto-parrafo .contacto-parrafo-elementos {
+        padding-left: 0px;
+        width: 70%;
     }
     .contacto-botella{
         display: none;
     }
-    .form{
-        padding-right: 0;
-    }
-    .contacto-parrafo-elementos {
-        padding-left: 0px;
-    }
 }
-
-@media screen and (max-width:480px) {
-    .form-contenedor{
-        width: 350px;
+@media screen and (max-width:550px) {
+    main .contacto-ppal .contacto-parrafo .contacto-parrafo-elementos{
+        width: 70%;
         height: auto;
     }
-    
+    main .contacto-ppal .form .form-contenedor {
+        width: 350px;
+        height: auto;
+        padding: 15px 15px 15px 15px;
+        font-size: 16px;
+    }
+    main .contacto-ppal .form .form-contenedor .label {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:450px) {
+    main .contacto-ppal .contacto-parrafo .contacto-parrafo-elementos{
+        width: 70%;
+        height: auto;
+    }
+    main .contacto-ppal .form .form-contenedor {
+        width: 300px;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+        font-size: 14px;
+    }
+    main .contacto-ppal .form .form-contenedor .label {
+        font-size: 14px;
+    }
 }

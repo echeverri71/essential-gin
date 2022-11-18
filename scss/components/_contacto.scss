@@ -1,74 +1,80 @@
-
-.contacto-ppal {
-    width: 100%;
-    height: auto;
-    background-image: url(../img/BgPremios.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 40px;
-    .contacto-parrafo-elementos {
-        padding-left: 100px;
-    }
-    .contacto-tt {
-        @extend %titulogrande;
-        
-    }
-    .contacto-parrafo {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 70px;
-    }
-    .contacto-botella {
-        width: 300px;
-        height: auto;
-        padding-top: 20px;
-        transition: 2s;
-    }
-    .contacto-botella:hover {
-        transform: scale(1.1);
-    }
-    .contacto-p {
-        @extend %txt-tienda;
-    }
-    .contacto-p1 {
-        @extend %txt-tienda;
-        padding-top: 20px;
-    }
-    .form {
-        padding-right: 40px;
-    }
-    
-    .form-contenedor {
-        width: 450px;
-        height: auto;
-        background-color: #161C0C;
-        border-radius: 15px;
-        box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-        -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-        -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
-        padding: 20px 20px 20px 20px;
-        color: #BBD1B4;
-        font-size: 18px;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-    }
-    
-    .label {
-        font-size: 18px;
-        font-family: 'Lato', sans-serif;
-        font-weight: bold 300;
-        padding-top: 20px;
-    }
-    
-    .input {
-        background-color: #BBD1B4;
+main {
+    .contacto-ppal {
         width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 3px solid #555;
+        height: auto;
+        background-image: url(../img/BgPremios.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 40px;
+        .contacto-parrafo {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 70px;
+            .contacto-parrafo-elementos {
+                padding-left: 180px;
+                width: 50%;
+                height: auto;
+                .contacto-tt {
+                    @extend %titulogrande;
+                    span {
+                        color: #BBD1B4;
+                    }
+                }
+                .contacto-p {
+                    @extend %txt-tienda;
+                }
+                .contacto-botella {
+                    width: 300px;
+                    height: auto;
+                    padding-top: 20px;
+                    transition: 2s;
+                }
+                .contacto-botella:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .form {
+            width: auto;
+            height: auto;
+            .form-contenedor {
+                width: 400px;
+                height: auto;
+                background-color: #161C0C;
+                border-radius: 15px;
+                box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+                -webkit-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+                -moz-box-shadow: 10px 8px 126px -29px rgba(128, 128, 128, 0.86);
+                padding: 20px 20px 20px 20px;
+                color: #BBD1B4;
+                font-size: 20px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                .label {
+                    font-size: 20px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: bold 300;
+                    padding-top: 20px;
+                }
+                .input {
+                    background-color: #BBD1B4;
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    box-sizing: border-box;
+                    border: 3px solid #555;
+                }
+                .boton-enviar{
+                    @extend %BotonGeneral;
+                    width: auto;
+                }
+                .boton-borrar{
+                    @extend %BotonGeneral;
+                    width: auto;
+                }
+            }
+        }
     }
-    
 }

@@ -11,20 +11,24 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    .tituloHistoria {
-        @extend %titulogrande;
-        span {
-            color: #BBD1B4;
+    .elementosH {
+        width: 40%;
+        height: auto;
+        .tituloHistoria {
+            @extend %titulogrande;
+            span {
+                color: #BBD1B4;
+            }
         }
-    }
-    .parrafo1{
-        @extend %ParrafosGenerales;
-    }
-    .parrafo2{
-        @extend %ParrafosGenerales;
-    }
-    .parrafo3{
-        @extend %ParrafosGenerales;
+        .parrafo1{
+            @extend %ParrafosGenerales;
+        }
+        .parrafo2{
+            @extend %ParrafosGenerales;
+        }
+        .parrafo3{
+            @extend %ParrafosGenerales;
+        }
     }
     .botellaGinHistoria {
         width: 200px;
@@ -66,7 +70,8 @@
     background-attachment: fixed;
     .historia-elementos {
         @include flex (flex, space-evenly, center);
-        padding-top: 50px
+        padding: 40px;
+        
     }
     .foto-historia {
         width: 400px;
@@ -74,10 +79,14 @@
     }
     .p1-historia {
         @extend %ParrafosGenerales2;
+        padding: 20px;
+        width: 40%;
+        height: auto;
     }
     .p2-historia {
         @extend %ParrafosGenerales3;
-        padding-right: 15px;
+        width: 30%;
+        height: auto
     }
     .boton-historia{
         display: flex;

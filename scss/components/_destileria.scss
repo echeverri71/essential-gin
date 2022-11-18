@@ -13,33 +13,41 @@ main {
         align-items: center;
         padding-top: 40px;
         padding-bottom: 40px;
-        .tt-destileria {
-            @extend %titulogrande;
-            span {
-                color: #BBD1B4;
+        .ele-destileria{
+            width: 50%;
+            height: auto;
+            padding-left: 120px;
+            .tt-destileria {
+                @extend %titulogrande;
+                span {
+                    color: #BBD1B4;
+                }
+            }
+            .p1-destileria {
+                color: $color-principal;
+                font-size: 18px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                padding-top: 15px;
+            }
+            .p2-destileria {
+                color: $color-principal;
+                font-size: 18px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
             }
         }
-        .p1-destileria {
-            color: $color-principal;
-            font-size: 18px;
-            font-family: 'Lato', sans-serif;
-            font-weight: 300;
-            padding-top: 15px;
-        }
-        .p2-destileria {
-            color: $color-principal;
-            font-size: 18px;
-            font-family: 'Lato', sans-serif;
-            font-weight: 300;
-        }
-        .p3-destileria {
-            @extend %ParrafosGenerales;
-            padding-left: 30px;
-        }
-        .p4-destileria {
-            @extend %ParrafosGenerales;
-            padding-left: 30px;
-            padding-top: 10px;
+        .p3y4 {
+            width: 40%;
+            height: auto;
+            padding-top: 60px;
+            padding-left: 50px;
+            .p3-destileria {
+                @extend %ParrafosGenerales;   
+            }
+            .p4-destileria {
+                @extend %ParrafosGenerales;    
+            }
         }
     }
     .destileriaGaleria {
@@ -75,6 +83,14 @@ main {
         .foto3:hover{
             transform: scale(1.2);
         }
+        .foto4 {
+            width: 410px;
+            height: auto;
+            transition: 2s;
+        }
+        .foto4:hover{
+            transform: scale(1.2);
+        }
     }
     .destileria-derecha {
         background-image: url(../img/BgPremios.png);
@@ -85,40 +101,36 @@ main {
         background-size: cover;
         background-attachment: fixed;
         padding-bottom: 40px;
+        
         .destileria-elementos{
+            width: 80%;
+            height: auto;
             padding-top: 30px;
             display: flex;
-            justify-content: right;
-            padding-right: 350px;
-        }
-        .destileria-tt2 {
-            @extend %titulogrande;
-            padding-top: 50px;
-            span {
-                color: #BBD1B4;
-            }
-        }
-        .destileria-p3 {
-            @extend %txt-tienda;
-        }
-        .destileria-parrafos {
-            padding-top: 30px;
-            text-align: right;
-            padding-right: 350px;
             flex-direction: column;
-        }
-        .boton4 {
-            padding-top: 20px;
-            display: flex;
-            justify-content: right;
-            padding-right: 350px;
+            text-align: right;
+            align-items: flex-end;
+            padding-left: 500px;
+            .destileria-tt2 {
+                @extend %titulogrande;
+                span {
+                    color: #BBD1B4;
+                }
+            }   
+            .destileria-p3 {
+                @extend %txt-tienda;
+            }
             .buyNow4 {
                 @extend %BotonComprar3;
+                align-self: flex-end;
+                width: 50%;
+                height: auto;
             }
             .buyNow4:hover {
                 transform: scale(1.1);
             }
         }
     }
-}    
-    
+}
+
+

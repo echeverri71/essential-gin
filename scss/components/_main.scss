@@ -13,6 +13,10 @@ main {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        .elementoshero{
+            width: 40%;
+            height: auto;
+        }
         .tituloEssential {
             color: white;
             font-family: 'Bebas Neue', cursive;
@@ -49,34 +53,38 @@ main {
     }
     .sectionHistoria {
         background-color: #161C0C;
-        @include flexWH (100%, auto, flex, center, baseline);
-        .tituloHistoria {
-            color: white;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 70px;
-            span {
-                color: #BBD1B4;
+        @include flexWH (100%, auto, flex, center, center);
+        .p1historia {
+            width: 500px;
+            height: auto;
+            padding-left: 30px;
+            margin-top: 50px;
+            .tituloHistoria {
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 70px;
+                span {
+                    color: #BBD1B4;
+                }
             }
-        }
-        
-        .h1 {
-            @extend %ParrafosGenerales2;
-        }
-        .h2 {
-            @extend %ParrafosGenerales2;
-            margin-top: 20px;
-        }
-        .h3 {
-            @extend %ParrafosGenerales3;
-            padding: 10px;
-            margin-top: 110px;
-            margin-left: 40px;
-        }
-        .h4 {
-            @extend %ParrafosGenerales3;
-            padding: 10px;
-            margin-top: 10px;
-            margin-left: 40px;
+            .h1 {
+                @extend %ParrafosGenerales2;
+            }
+            .h2 {
+                @extend %ParrafosGenerales2;
+            }
+        }    
+        .p2historia {
+            width: 400px;
+            height: auto;
+            padding-top: 110px;
+            margin-left: 30px;
+            .h3 {
+                @extend %ParrafosGenerales3;
+            }
+            .h4 {
+                @extend %ParrafosGenerales3;
+            }    
         }
     }
     .video-gin {
@@ -87,6 +95,9 @@ main {
         @extend %titulogrande;
         text-align: center;
         padding-top: 100px;
+        span {
+            color: #BBD1B4;
+        }
     }
     .premios {
         background-image: url(../img/BgPremios.png);
@@ -152,7 +163,15 @@ main {
             }
             .galeria3:hover{
                 transform: scale(1.2);
-            }           
+            }
+            .galeria4 {
+                width: 490px;
+                height: auto;
+                transition: 2s;
+            }
+            .galeria4:hover{
+                transform: scale(1.2);
+            }              
         }
         .pgaleria {
             color: #bbd1b4b2;
