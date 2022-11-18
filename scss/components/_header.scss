@@ -29,5 +29,16 @@ header {
         }
     }
 }
-
-/* No entiendo como aplicar las clases de este header de boostrap para que bien aplicado */
+.navbar-light .navbar-nav .nav-link {
+    color: #BBD1B4;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #BBD1B4
+}
+.header-flex {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
